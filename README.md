@@ -9,7 +9,14 @@ com logradouro, bairro, cidade e estado preenchidos automaticamente.
 git clone https://github.com/edu76666/cep-enricher
 cd cep-enricher
 pip install -r requirements.txt
-python main.py --input enderecos.csv --output resultado.csv
+python main.py
+
+## Como usar
+
+1. Adicione os CEPs no arquivo `enderecos.csv`, um por linha
+2. Execute o script:
+   python main.py
+3. O arquivo `resultado.csv` será gerado com os dados completos
 
 ## Tecnologias
 
