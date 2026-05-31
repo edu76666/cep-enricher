@@ -6,10 +6,10 @@ com logradouro, bairro, cidade e estado preenchidos automaticamente.
 
 ## Como executar
 
-git clone https://github.com/edu76666/cep-enricher
-cd cep-enricher
-pip install -r requirements.txt
-python main.py
+1. git clone https://github.com/edu76666/cep-enricher
+2. cd cep-enricher
+3. pip install -r requirements.txt
+4. python main.py
 
 ## Como usar
 
